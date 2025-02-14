@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8e6ea;
+    padding: 50px;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #e6005c;
+    font-weight: bold;
+}
+
+/* Button styling */
+button {
+    background-color: #ff5c8d;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #ff3b69;
+    transform: scale(1.1);
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+/* Button active effect */
+button:active {
+    transform: scale(0.95);
+    transition: transform 0.1s ease;
+}
+
+/* Message styling */
+#message {
+    margin-top: 30px;
+    font-size: 24px;
+    color: #e6005c;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+img {
+    max-width: 100%;   /* Makes the image responsive (it scales down if needed) */
+    height: auto;      /* Keeps the aspect ratio intact */
+    width: 40%;        /* You can adjust this percentage based on your preference */
+    margin: 20px auto; /* Optional: adds space around the image */
+    display: block;    /* Centers the image horizontally */
+}
+
